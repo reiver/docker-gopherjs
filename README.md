@@ -21,7 +21,7 @@ I *think* on Mac the `sudo` part is not needed though.)
 
 After that has come up, it will **eventually** present you with a message of what to do next.
 
-The messaeg it will **eventually** show you will look something like this:
+The message it will **eventually** show you will look something like this:
 ```
 ###########################################################################
 
