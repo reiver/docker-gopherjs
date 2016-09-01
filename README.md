@@ -41,4 +41,6 @@ You could press [CTRL]+[C] to stop this container from running...
 [Thu, 01 Sep 2016 00:21:20 +0000] and all's well.
 ```
 
+**Follow the instructions in the message you see like that.**
 
+**Especially the part about opening a new terminal window, for the next steps.**
