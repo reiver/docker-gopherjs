@@ -32,7 +32,7 @@ run the command:
 
 And then, once you are in the container, run something like:
 
-    cd /app/project && gopherjs test
+    cd /app/project/src/<YOUR_PROJECT_DIRNAME> && gopherjs build
 
 ---------------------------------------------------------------------------
 
