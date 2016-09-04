@@ -2,7 +2,39 @@ A Docker based development environment for doing frontend development with Golan
 
 # Usage
 
-To use, navigate to the `docker/dev` directory.
+You first need to create your GopherJS flavored Golang code.
+(Which might look exactly like "normal" Golang code, like the example code you are about to see.)
+
+After creating source code file like `project/src/myprogram/main.go` with content like the following:
+```
+package main
+
+
+import (
+	"fmt"
+)
+
+
+func main() {
+	fmt.Println("Hello world!")
+}
+```
+
+And also an HTML file like `project/src/myprogram/index.html` with contents like the following:
+```
+<html>
+	<head>
+		<title>GopherJS Test</title>
+	</head>
+
+	<body>
+
+		<script src="myprogram.js"></script>
+	</body>
+</html>
+```
+
+Navigate to the `docker/dev` directory.
 
 On many systems, you will likely do this with the command:
 ```
@@ -44,3 +76,7 @@ You could press [CTRL]+[C] to stop this container from running...
 **Follow the instructions in the message you see like that.**
 
 **Especially the part about opening a new terminal window, for the next steps.**
+
+After you built it (using `gopherjs build`, and having some JavaScript file(s) created) open up an HTML file to see your GopherJS code in action.
+
+With the example we provided, you should look at the developer console to see the "Hello world!" text.
