@@ -24,7 +24,7 @@ do
 	echo
 	echo "And then, once you are in the container, run something like:"
 	echo
-	echo "    cd ${DOCKER_APP_PROJECT_DIRECTORY} && gopherjs test"
+	echo "    cd ${DOCKER_APP_PROJECT_DIRECTORY}/src/<YOUR_PROJECT_DIRNAME> && gopherjs build"
 	echo
 	echo "---------------------------------------------------------------------------"
 	echo
