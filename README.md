@@ -6,7 +6,7 @@ You first need to create your GopherJS flavored Golang code.
 (Which might look exactly like "normal" Golang code, like the example code you are about to see.)
 
 After creating source code file like `project/src/myprogram/main.go` with content like the following:
-```
+```go
 package main
 
 
@@ -21,7 +21,7 @@ func main() {
 ```
 
 And also an HTML file like `project/src/myprogram/index.html` with contents like the following:
-```
+```html
 <html>
 	<head>
 		<title>GopherJS Test</title>
